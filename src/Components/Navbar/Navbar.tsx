@@ -1,3 +1,4 @@
+import Login from '../Login/Login';
 import './Navbar.css';
 
 const NavBar = () =>{
@@ -5,7 +6,7 @@ const NavBar = () =>{
         <>
             <nav className="navbar bg-body-tertiary fixed-navbar">
                 <div className="container-fluid">
-                    <a>teste</a>
+                    <Login/>
                 </div>
             </nav>
         </>
