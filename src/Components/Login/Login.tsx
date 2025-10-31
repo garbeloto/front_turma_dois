@@ -19,12 +19,8 @@ const Login = () => {
         event.preventDefault();
         try {
             const response = await LoginAPI(loginData);
-            if (response.data && response.status === 200) {
-                alert('Login realizado com sucesso!');
-                sessionStorage.setItem('token', response.data.token);
-
-                const testeRecuperarDado = sessionStorage.getItem('token');
-                alert('Dado recuperado do sessionStorage: ' + testeRecuperarDado);
+            if (response.data && response.status === 200) {               
+                sessionStorage.setItem('token', response.data.token);               
             } else {
                 alert('Falha no login. Verifique suas credenciais.');
             }         
