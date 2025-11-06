@@ -1,0 +1,59 @@
+/* src/Components/AcaoCard/AcaoCard.css */
+
+.acao-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.acao-logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.acao-longname {
+  font-size: 0.9em;
+  color: #555;
+  height: 40px; 
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 15px 0;
+}
+
+.price {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.change {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.day-range p {
+  font-size: 0.85em;
+  color: #333;
+  margin: 4px 0;
+}
